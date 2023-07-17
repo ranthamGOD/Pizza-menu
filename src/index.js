@@ -78,7 +78,7 @@ function Menu() {
         <>
           <p>
             Authentic Italian cuisine. 6 creative dishes to choose from. All
-            from our stone oven, all organic, all delicious.
+            from our stone oven, all organic, all delicious 😋.
           </p>
           <ul className="pizzas">
             {pizzaData.map((pizza) => (
@@ -87,7 +87,7 @@ function Menu() {
           </ul>
         </>
       ) : (
-        <p> We're still working on our menu. Please come back later :)</p>
+        <p> We're still working on our menu. Please come back later 😊:)</p>
       )}
     </main>
   );
